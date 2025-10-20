@@ -1,5 +1,11 @@
 import { useMemo } from "react";
-import { StyleSheet, Text, TouchableOpacity } from "react-native";
+import {
+  StyleProp,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  ViewStyle,
+} from "react-native";
 
 export type ButtonVariant = "solid" | "outline" | "link";
 export type ButtonSize = "small" | "medium" | "large";
@@ -14,10 +20,18 @@ type ButtonProps = {
   action?: ButtonAction;
   disabled?: boolean;
   loading?: boolean;
+  styles?: StyleProp<ViewStyle>;
   onPress?: () => void;
 };
 
-export function Button({ title, color, disabled, size, variant }: ButtonProps) {
+export function Button({
+  title,
+  color,
+  disabled,
+  size,
+  variant,
+  styles: customStyles,
+}: ButtonProps) {
   const styles = useMemo(
     () => buttonStyles({ color, size, variant, disabled }),
     [color, disabled, size, variant]
@@ -26,7 +40,7 @@ export function Button({ title, color, disabled, size, variant }: ButtonProps) {
   // const styles = useStyle(buttonStyles, { color, size, variant, disabled });
 
   return (
-    <TouchableOpacity style={styles.button}>
+    <TouchableOpacity style={[styles.button, customStyles]}>
       <Text>{title}</Text>
     </TouchableOpacity>
   );
