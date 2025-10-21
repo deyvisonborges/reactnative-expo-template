@@ -6,9 +6,11 @@ import { HelloWave } from "@/components/hello-wave";
 import ParallaxScrollView from "@/components/parallax-scroll-view";
 import { ThemedText } from "@/components/themed-text";
 import { ThemedView } from "@/components/themed-view";
-import { Link } from "expo-router";
+import { Link, useRouter } from "expo-router";
 
 export default function HomeScreen() {
+  const router = useRouter();
+
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: "#A1CEDC", dark: "#1D3D47" }}
@@ -19,46 +21,15 @@ export default function HomeScreen() {
         />
       }
     >
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-        <Button
-          title="Meu Deus do ceu"
-          action="button"
-          color="primary"
-          size="small"
-        />
-        <Button
-          title="Meu Deus do ceu"
-          action="button"
-          color="primary"
-          size="medium"
-        />
-        <Button
-          title="Meu Deus do ceu"
-          action="button"
-          color="primary"
-          size="large"
-        />
-        <Button
-          title="Meu Deus do ceu"
-          action="button"
-          color="secondary"
-          size="small"
-        />
-        <Button
-          title="Meu Deus do ceu"
-          action="button"
-          color="secondary"
-          size="medium"
-        />
-        <Button
-          title="Meu Deus do ceu"
-          action="button"
-          color="secondary"
-          size="large"
-        />
-      </ThemedView>
+      <ThemedText type="title">Welcome!</ThemedText>
+      <HelloWave />
+      <Button
+        title="Meu Deus do ceu"
+        action="button"
+        color="primary"
+        size="small"
+        onPress={() => router.navigate("/onboarding")}
+      />
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>

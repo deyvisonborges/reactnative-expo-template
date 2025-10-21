@@ -31,6 +31,7 @@ export function Button({
   size,
   variant,
   styles: customStyles,
+  onPress,
 }: ButtonProps) {
   const styles = useMemo(
     () => buttonStyles({ color, size, variant, disabled }),
@@ -40,7 +41,7 @@ export function Button({
   // const styles = useStyle(buttonStyles, { color, size, variant, disabled });
 
   return (
-    <TouchableOpacity style={[styles.button, customStyles]}>
+    <TouchableOpacity style={[styles.button, customStyles]} onPress={onPress}>
       <Text>{title}</Text>
     </TouchableOpacity>
   );

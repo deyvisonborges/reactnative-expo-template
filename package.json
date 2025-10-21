@@ -7,6 +7,7 @@
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
+    "android-emulator": "nohup bash -c 'emulator -avd Small_Phone' &",
     "web": "BROWSER=none npx expo start --web",
     "lint": "expo lint"
   },
