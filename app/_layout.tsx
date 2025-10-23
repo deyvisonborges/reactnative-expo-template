@@ -1,4 +1,3 @@
-import { Header } from "@/components/header";
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import "react-native-reanimated";
@@ -16,12 +15,7 @@ export default function RootLayout() {
           name="modal"
           options={{ presentation: "modal", title: "Modal" }}
         />
-        <Stack.Screen
-          name="onboarding"
-          options={{
-            header: () => <Header />,
-          }}
-        />
+        <Stack.Screen name="[step]/index" />
       </Stack>
       <StatusBar style="auto" />
     </>

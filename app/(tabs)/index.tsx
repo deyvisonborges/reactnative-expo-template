@@ -28,7 +28,7 @@ export default function HomeScreen() {
         action="button"
         color="primary"
         size="small"
-        onPress={() => router.navigate("/onboarding")}
+        onPress={() => router.push("/onboarding")}
       />
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>

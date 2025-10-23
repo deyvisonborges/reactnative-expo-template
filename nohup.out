@@ -326,3 +326,8 @@ INFO         | Wait for emulator (pid 15672) 20 seconds to shutdown gracefully b
 
 INFO         | Wait for emulator (pid 15672) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
 
+INFO         | Saving with gfxstream=1
+INFO         | Saving snapshot 'default_boot' using 14886 ms
+INFO         | OpenGL Vendor=[Google (Apple)]
+INFO         | OpenGL Renderer=[Android Emulator OpenGL ES Translator (Apple M1 Pro)]
+INFO         | OpenGL Version=[OpenGL ES 3.0 (4.1 Metal - 90.5)]

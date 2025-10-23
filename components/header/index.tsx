@@ -3,12 +3,10 @@ import { themes } from "@/lib/@tokens/src/theme";
 import { Ionicons } from "@expo/vector-icons";
 import { StatusBar, Text, View } from "react-native";
 import {
-  SafeAreaView,
-  useSafeAreaInsets,
+  SafeAreaView
 } from "react-native-safe-area-context";
 
 export function Header() {
-  const insets = useSafeAreaInsets();
 
   return (
     <SafeAreaView
