@@ -1,6 +1,8 @@
-import { Text, View } from "react-native";
+import { useRouter } from "expo-router";
+import { Text, TouchableOpacity, View } from "react-native";
 
 export function Step1() {
+  const router = useRouter();
   return (
     <View
       style={{
@@ -20,10 +22,12 @@ export function Step1() {
       >
         Flexible learning made for you
       </Text>
-      <Text style={{ color: "#666", textAlign: "center", marginTop: 8 }}>
-        Set your own course duration, pay in installments, and learn at your
-        pace.
-      </Text>
+      <TouchableOpacity onPress={() => router.push("/onboarding/step2")}>
+        <Text style={{ color: "#666", textAlign: "center", marginTop: 8 }}>
+          Set your own course duration, pay in installments, and learn at your
+          pace.
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 }

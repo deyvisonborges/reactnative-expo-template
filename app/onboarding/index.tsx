@@ -1,18 +1,3 @@
-// import { useRootNavigationState, useRouter } from "expo-router";
-// import { useEffect } from "react";
-
-// export default function OnboardingDefaultRoute() {
-//   const router = useRouter();
-//   const rootNavigationState = useRootNavigationState();
-
-//   useEffect(() => {
-//     if (!rootNavigationState?.key) return; // ainda não montou o layout
-//     router.replace("/onboarding/step1");
-//   }, [rootNavigationState, router]);
-
-//   return null;
-// }
-
 import { useRootNavigationState, useRouter } from "expo-router";
 import { useEffect } from "react";
 

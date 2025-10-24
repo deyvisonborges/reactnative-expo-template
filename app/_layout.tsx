@@ -9,13 +9,13 @@ export const unstable_settings = {
 export default function RootLayout() {
   return (
     <>
-      <Stack>
+      <Stack screenOptions={{ headerShown: false, headerShadowVisible: false }}>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen
           name="modal"
           options={{ presentation: "modal", title: "Modal" }}
         />
-        <Stack.Screen name="[step]/index" />
+        <Stack.Screen name="onboarding" />
       </Stack>
       <StatusBar style="auto" />
     </>
