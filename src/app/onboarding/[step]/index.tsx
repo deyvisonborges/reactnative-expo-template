@@ -1,7 +1,7 @@
+import { Step1 } from "@/components/step1";
+import { Step2 } from "@/components/step2";
 import { useLocalSearchParams } from "expo-router";
 import { Text } from "react-native";
-import { Step1 } from "./step1";
-import { Step2 } from "./step2";
 
 export default function OnboardingStepRoute() {
   const { step } = useLocalSearchParams();

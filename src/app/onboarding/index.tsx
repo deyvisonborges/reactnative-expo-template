@@ -1,9 +1,25 @@
+import { LoadingPage } from "@/components/loading.page";
 import { useRootNavigationState, useRouter } from "expo-router";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function OnboardingDefaultRoute() {
   const router = useRouter();
   const rootNavigationState = useRootNavigationState();
+
+  const [loading, setLoading] = useState(true);
+
+  // Exemplo fictício — você pode substituir por AsyncStorage, API, etc.
+  async function getUserStep() {
+    // await AsyncStorage.getItem("onboardingStep")
+    await new Promise((resolve) =>
+      setTimeout(() => {
+        resolve("step1");
+      }, 3000)
+    );
+    setLoading(false);
+
+    return "step1";
+  }
 
   useEffect(() => {
     // Aguarda o layout principal montar
@@ -21,11 +37,9 @@ export default function OnboardingDefaultRoute() {
     redirectToStep();
   }, [rootNavigationState, router]);
 
-  return null;
-}
+  if (loading) {
+    return <LoadingPage />;
+  }
 
-// Exemplo fictício — você pode substituir por AsyncStorage, API, etc.
-async function getUserStep() {
-  // await AsyncStorage.getItem("onboardingStep")
   return null;
 }

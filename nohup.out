@@ -1,0 +1,462 @@
+INFO         | Android emulator version 36.2.12.0 (build_id 14214601) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath /Users/deyvisonborges/Library/Android/sdk/system-images/android-36/google_apis_playstore/arm64-v8a/
+WARNING      | Please update the emulator to one that supports the feature(s): VulkanVirtualQueue
+INFO         | Increasing RAM size to 2048MB
+INFO         | Guest GLES Driver: Auto (ext controls)
+library_mode host gpu mode host
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Small_Phone` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `Small_Phone` are passed
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `Small_Phone` are met
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_btn_xr_environment_living_room_day_clicked() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_btn_xr_environment_living_room_night_clicked() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_posture_requested(int) (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_posture_selection_dialog() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_resizable_requested(PresetEmulatorSizeType) (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_resizable_dialog() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_xr_environment_mode_changed(int) (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_xr_environment_mode_dialog() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_xr_input_mode_changed(int) (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_xr_input_mode_dialog() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_sleep_timer_done() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_unfold_timer_done() (:0, )
+INFO         | Storing crashdata in: /tmp/android-deyvisonborges/emu-crash-36.2.12.db, detection is enabled for process: 19252
+INFO         | Initializing hardware OpenGLES emulation support
+INFO         | android_startOpenglesRenderer: gpu info
+INFO         | 
+INFO         | HealthMonitor disabled.
+INFO         | initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+INFO         | Setting ICD filenames for the loader = /Users/deyvisonborges/Library/Android/sdk/emulator/lib64/vulkan/vk_swiftshader_icd.json
+INFO         | SharedLibrary::open for [/Users/deyvisonborges/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib]
+INFO         | SharedLibrary::open for [/Users/deyvisonborges/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [/Users/deyvisonborges/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib] (posix): begin
+INFO         | SharedLibrary::open for [/Users/deyvisonborges/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib] (posix,darwin): call dlopen
+INFO         | SharedLibrary::open succeeded for [/Users/deyvisonborges/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib].
+INFO         | Added library: /Users/deyvisonborges/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib
+INFO         | Selecting Vulkan device: SwiftShader Device (LLVM 10.0.0), Version: 1.3.0
+INFO         | Disabling sparse binding feature support
+INFO         | SharedLibrary::open for [/System/Library/Frameworks/OpenGL.framework/OpenGL]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [/System/Library/Frameworks/OpenGL.framework/OpenGL] (posix): begin
+INFO         | SharedLibrary::open for [/System/Library/Frameworks/OpenGL.framework/OpenGL] (posix,darwin): call dlopen
+INFO         | SharedLibrary::open succeeded for [/System/Library/Frameworks/OpenGL.framework/OpenGL].
+INFO         | SharedLibrary::open for [libshadertranslator.dylib]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [libshadertranslator.dylib] (posix): begin
+INFO         | SharedLibrary::open for [libshadertranslator.dylib] (posix,darwin): call dlopen
+INFO         | SharedLibrary::open succeeded for [libshadertranslator.dylib].
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         | Graphics Adapter Vendor Google (Apple)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (Apple M1 Pro)
+INFO         | Graphics API Version OpenGL ES 3.0 (4.1 Metal - 90.5)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+INFO         | Graphics Device Extensions N/A
+INFO         | Sending adb public key [QAAAAOUDfWoTfrbc3yqu7lt0ELIIHQxzdxtZO1b0nVaTSGYfbMq2v/3gWOiwb5YBCOGGSzvyarDqLYB1D52CSUz+YBNcQixJELYtdCkYa8PQbWH5Swhe+k/N407powZKqZhtsUiok8vPOjImSxJ2fyVCTgRsRvolF2mG7eexN2TH2AC1I6egUna9tQd6TREJRGGrHCDj+jVgUxntmFEnDme8fl8EvRJVpIJcWblepNWz1wxuEcRm9LIBONXDME+tPRG2qDQk1q79kcMPgAByCSoIREYiZYz8lFA8rjOPpca7+oIbvjMYjcN3Et21JiSdSBzY42SMNv0x9dB2ayWSfbZP/a9BEmiH0gM9RYxrljVOvQfdmdDVTOxSENOighOJCX1qpKwPdGHGLEdb9jP9u9ntPo13+vp7YsaZiAaCsr3lLKBNb9Ycd9LYQ9nZJmcBJX8pOeyKLn9BscTZPXj5vb9ekUXg8bWHRyRA2k0G30Eo4ELR6+fQkq6SEj6lmfMJadmoqRukliEpQ/8qexPnghLIb7hBgSqi2S4t+njDxdB2vxrKdiYYWxM+0SM7I+bG1+9/TAiJokbrw5t071dQzQ7dt90eRt7p/LchQAIu0Y1Aond1UUnjexQM1zRK/rhzBvwu6fLHRzECaakcjfp2YU7kWx5hLj1veIE2IEqjxfY+X6kSdVInXQEAAQA= deyvisonborges@unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=a003600.virtio_mmio
+INFO         |   androidboot.dalvik.vm.heapsize=512m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196608
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAAOUDfWoTfrbc3yqu7lt0ELIIHQxzdxtZO1b0nVaTSGYfbMq2v/3gWOiwb5YBCOGGSzvyarDqLYB1D52CSUz+YBNcQixJELYtdCkYa8PQbWH5Swhe+k/N407powZKqZhtsUiok8vPOjImSxJ2fyVCTgRsRvolF2mG7eexN2TH2AC1I6egUna9tQd6TREJRGGrHCDj+jVgUxntmFEnDme8fl8EvRJVpIJcWblepNWz1wxuEcRm9LIBONXDME+tPRG2qDQk1q79kcMPgAByCSoIREYiZYz8lFA8rjOPpca7+oIbvjMYjcN3Et21JiSdSBzY42SMNv0x9dB2ayWSfbZP/a9BEmiH0gM9RYxrljVOvQfdmdDVTOxSENOighOJCX1qpKwPdGHGLEdb9jP9u9ntPo13+vp7YsaZiAaCsr3lLKBNb9Ycd9LYQ9nZJmcBJX8pOeyKLn9BscTZPXj5vb9ekUXg8bWHRyRA2k0G30Eo4ELR6+fQkq6SEj6lmfMJadmoqRukliEpQ/8qexPnghLIb7hBgSqi2S4t+njDxdB2vxrKdiYYWxM+0SM7I+bG1+9/TAiJokbrw5t071dQzQ7dt90eRt7p/LchQAIu0Y1Aond1UUnjexQM1zRK/rhzBvwu6fLHRzECaakcjfp2YU7kWx5hLj1veIE2IEqjxfY+X6kSdVInXQEAAQA= deyvisonborges@unknown
+INFO         |   androidboot.qemu.avd_name=Small_Phone
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4202496
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR36X2X12X0
+INFO         |   androidboot.vbmeta.digest=6b98218b46c523e17f8b4a810c5a51b4af28f327c436ce0d286bf937f545cfd7
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6720
+INFO         |   androidboot.veritymode=enforcing
+INFO         | Monitoring duration of emulator setup.
+WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO         | Using security allow list from: /Users/deyvisonborges/Library/Android/sdk/emulator/lib/emulator_access.json
+WARNING      | *** Basic token auth should only be used by android-studio ***
+INFO         | The active JSON Web Key Sets can be found here: /Users/deyvisonborges/Library/Caches/TemporaryItems/avd/running/19252/jwks/afaaf474-8a92-46a4-85a0-a057da6ddef4/active.jwk
+INFO         | Scanning /Users/deyvisonborges/Library/Caches/TemporaryItems/avd/running/19252/jwks/afaaf474-8a92-46a4-85a0-a057da6ddef4 for jwk keys.
+INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO         | Advertising in: /Users/deyvisonborges/Library/Caches/TemporaryItems/avd/running/pid_19252.ini
+INFO         | Setting display: 0 configuration to: 720x1280, dpi: 320x320 
+INFO         | setDisplayActiveConfig 0
+ERROR        | Unable to connect to adb daemon on port: 5037
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Small_Phone` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `Small_Phone` are passed
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `Small_Phone` are met
+INFO         | Loading snapshot 'default_boot'...
+INFO         | OpenGL Vendor=[Google (Apple)]
+INFO         | OpenGL Renderer=[Android Emulator OpenGL ES Translator (Apple M1 Pro)]
+INFO         | OpenGL Version=[OpenGL ES 3.0 (4.1 Metal - 90.5)]
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Unknown XR viewport mode requested: 0, ignored.
+
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+INFO         | Activated packet streamer for uwb emulation
+INFO         | Activated packet streamer for bluetooth emulation
+INFO         | Successfully loaded snapshot 'default_boot' using 2349 ms
+INFO         | OpenGL Vendor=[Google (Apple)]
+INFO         | OpenGL Renderer=[Android Emulator OpenGL ES Translator (Apple M1 Pro)]
+INFO         | OpenGL Version=[OpenGL ES 3.0 (4.1 Metal - 90.5)]
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command '/Users/deyvisonborges/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell am start-foreground-service -e meter on com.android.emulator.radio.config/.MeterService ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb: device offline'
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=305.984,726.313 gbl=305.984,726.313 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-305.984,-726.313 last=-305.984,-726.313 Δ 305.984,726.313) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=155.079,219.128 gbl=155.079,219.128 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-155.079,-219.128 last=-155.079,-219.128 Δ 155.079,219.128) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=317.177,381.952 gbl=317.177,381.952 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-317.177,-381.952 last=-317.177,-381.952 Δ 317.177,381.952) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=252.634,451.361 gbl=252.634,451.361 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-252.634,-451.361 last=-252.634,-451.361 Δ 252.634,451.361) : no target window (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=1
+INFO         | Guest Angle is still unstable for API > 35.
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=281.062,486.957 gbl=281.062,486.957 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-281.062,-486.957 last=-281.062,-486.957 Δ 281.062,486.957) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=466.273,353.831 gbl=466.273,353.831 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-466.273,-353.831 last=-466.273,-353.831 Δ 466.273,353.831) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1135.06,187.058 gbl=1135.06,187.058 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1135.06,-187.058 last=-1135.06,-187.058 Δ 1135.06,187.058) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=986.176,661.372 gbl=986.176,661.372 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-986.176,-661.372 last=-986.176,-661.372 Δ 986.176,661.372) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1153.17,384.88 gbl=1153.17,384.88 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1153.17,-384.88 last=-1153.17,-384.88 Δ 1153.17,384.88) : no target window (:0, )
+WARNING      | adb command '/opt/homebrew/bin/adb -s emulator-5554 shell dumpsys package com.google.android.gms ' failed: 'Activity Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.item/com.google.android.gms.matchstick.phone:
+        e15bdaf com.google.android.gms/.matchstick.call.ContactsVideoActionActivity filter 36745bc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.google.android.gms.matchstick.phone"
+        5a02945 com.google.android.gms/.matchstick.call.ContactsPrivilegedVideoActionActivity filter 222c89a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.google.android.gms.matchstick.phone"
+      image/jpeg:
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+      image/webp:
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+      application/vnd.apple.pkpasses:
+        e9d12b3 com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity filter e05b070
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/vnd.apple.pkpass"
+          StaticType: "application/vnd.apple.pkpasses"
+          StaticType: "application/octet-stream"
+      image/bmp:
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+      image/jpg:
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+      image/png:
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+      */*:
+        4d1b49 com.google.android.gms/.nearby.sharing.main.MainActivity filter 29b0c4e
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Action: "com.google.android.gms.SHARE_NEARBY"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        4d1b49 com.google.android.gms/.nearby.sharing.main.MainActivity filter dc32305
+          Action: "com.google.android.gms.RECEIVE_NEARBY"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        924fe com.google.android.gms/.nearby.sharing.send.SendActivity filter 79e545f
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Action: "com.google.android.gms.SHARE_NEARBY"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        b537adc com.google.android.gms/.nearby.sharing.receive.ReceiveActivityReceiveActionAlias filter 42287e5
+          Action: "com.google.android.gms.RECEIVE_NEARBY"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        bb3ff12 com.google.android.gms/.nearby.sharing.migration.TransparentTrampolineActivity filter d4746e3
+          Action: "com.google.android.gms.RECEIVE_NEARBY"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        bb3ff12 com.google.android.gms/.nearby.sharing.migration.TransparentTrampolineActivity filter 862b799
+          Action: "com.google.android.gms.SHARE_NEARBY"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/vnd.google.wallet.walletable-resource+image:
+        ace6fe9 com.google.android.gms/.pay.deeplink.AliasProcessWalletableResourceActivity filter 734d46e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "walletable-resource"
+          StaticType: "application/vnd.google.wallet.walletable-resource+image"
+      text/plain:
+        768dc92 com.google.android.gms/.plus.sharebox.ShareBoxActivity filter 5c69663
+          Action: "com.google.android.gms.plus.action.SHARE_GOOGLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      application/octet-stream:
+        31f778 com.google.android.gms/.credential.manager.credentialexchange.ExportCredentialsActivity filter d7d1e51
+          Action: "androidx.identitycredentials.action.IMPORT_CREDENTIALS"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/octet-stream"
+        e9d12b3 com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity filter e05b070
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/vnd.apple.pkpass"
+          StaticType: "application/vnd.apple.pkpasses"
+          StaticType: "application/octet-stream"
+      vnd.android.cursor.item/com.google.android.gms.matchstick.phone.audio:
+        30a85cb com.google.android.gms/.matchstick.call.ContactsAudioActionActivity filter 64101a8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.google.android.gms.matchstick.phone.audio"
+        81f14c1 com.google.android.gms/.matchstick.call.ContactsPrivilegedAudioActionActivity filter bd4d466
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.google.android.gms.matchstick.phone.audio"
+      application/vnd.google.wallet.walletable-resource+barcode:
+        54c270f com.google.android.gms/.pay.deeplink.AliasProcessWalletableBarcodeResourceActivity filter 9ed639c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "walletable-resource"
+          StaticType: "application/vnd.google.wallet.walletable-resource+barcode"
+      application/vnd.apple.pkpass:
+        e9d12b3 com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity filter e05b070
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/vnd.apple.pkpass"
+          StaticType: "application/vnd.apple.pkpasses"
+          StaticType: "application/octet-stream"
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        e15bdaf com.google.android.gms/.matchstick.call.ContactsVideoActionActivity filter 36745bc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.google.android.gms.matchstick.phone"
+        5a02945 com.google.android.gms/.matchstick.call.ContactsPrivilegedVideoActionActivity filter 222c89a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.google.android.gms.matchstick.phone"
+        30a85cb com.google.android.gms/.matchstick.call.ContactsAudioActionActivity filter 64101a8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.google.android.gms.matchstick.phone.audio"
+        81f14c1 com.google.android.gms/.matchstick.call.ContactsPrivilegedAudioActionActivity filter bd4d466
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.google.android.gms.matchstick.phone.audio"
+      text:
+        768dc92 com.google.android.gms/.plus.sharebox.ShareBoxActivity filter 5c69663
+          Action: "com.google.android.gms.plus.action.SHARE_GOOGLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      image:
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+        51521a5 com.google.android.gms/.pay.deeplink.AliasProcessImageResourceActivity filter 4ddc97a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image/bmp"
+          StaticType: "image/jpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/png"
+          StaticType: "image/webp"
+      application:
+        31f778 com.google.android.gms/.credential.manager.credentialexchange.ExportCredentialsActivity filter d7d1e51
+          Action: "androidx.identitycredentials.action.IMPORT_CREDENTIALS"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/octet-stream"
+        e9d12b3 com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity filter e05b070
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/vnd.apple.pkpass"
+          StaticType: "application/vnd.apple.pkpasses"
+          StaticType: "application/octet-stream"
+        e9d12b3 com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity filter e05b070
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/vnd.apple.pkpass"
+          StaticType: "application/vnd.apple.pkpasses"
+          StaticType: "application/octet-stream"
+        e9d12b3 com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity filter e05b070
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/vnd.apple.pkpass"
+          StaticType: "application/vnd.apple.pkpasses"
+          StaticType: "application/octet-stream"
+        ace6fe9 com.google.android.gms/.pay.deeplink.AliasProcessWalletableResourceActivity filter 734d46e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "walletable-resource"
+          StaticType: "application/vnd.google.wallet.walletable-resource+image"
+        54c270f com.google.android.gms/.pay.deeplink.AliasProcessWalletableBarcodeResourceActivity filter 9ed639c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "walletable-resource"
+          StaticType: "application/vnd.google.wallet.walletable-resource+barcode"
+
+  Wild MIME Types:
+      *:
+        4d1b49 com.google.android.gms/.nearby.sharing.main.MainActivity filter 29b0c4e
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Action: "com.google.android.gms.SHARE_NEARBY"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        4d1b49 com.google.android.gms/.nearby.sharing.main.MainActivity filter dc32305
+          Action: "com.google.android.gms.RECEIVE_NEARBY"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        924fe com.google.android.gms/.nearby.sharing.send.SendActivity filter 79e545f
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Action: "com.google.android.gms.SHARE_NEARBY"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=fals
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1059.23,490.578 gbl=1059.23,490.578 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1059.23,-490.578 last=-1059.23,-490.578 Δ 1059.23,490.578) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1107.14,727.666 gbl=1107.14,727.666 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1107.14,-727.666 last=-1107.14,-727.666 Δ 1107.14,727.666) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1118.5,509.513 gbl=1118.5,509.513 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1118.5,-509.513 last=-1118.5,-509.513 Δ 1118.5,509.513) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1112.72,515.436 gbl=1112.72,515.436 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1112.72,-515.436 last=-1112.72,-515.436 Δ 1112.72,515.436) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1029.33,530.081 gbl=1029.33,530.081 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1029.33,-530.081 last=-1029.33,-530.081 Δ 1029.33,530.081) : no target window (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: No TLS backend is available (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: No TLS backend is available (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: No functional TLS backend was found (:0, )
+INFO         | Warning: Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading (userscript:qwebchannel.js:1345, )
+INFO         | Warning: Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading (userscript:qwebchannel.js:1345, )
+INFO         | Warning: As of March 1st, 2025, google.maps.places.Autocomplete is not available to new customers. Please use google.maps.places.PlaceAutocompleteElement instead. At this time, google.maps.places.Autocomplete is not scheduled to be discontinued, but google.maps.places.PlaceAutocompleteElement is recommended over google.maps.places.Autocomplete. While google.maps.places.Autocomplete will continue to receive bug fixes for any major regressions, existing bugs in google.maps.places.Autocomplete will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/legacy for additional details and https://developers.google.com/maps/documentation/javascript/places-migration-overview for the migration guide. (userscript:qwebchannel.js:65, )
+INFO         | Warning: As of March 1st, 2025, google.maps.places.AutocompleteService is not available to new customers. Please use google.maps.places.AutocompleteSuggestion instead. At this time, google.maps.places.AutocompleteService is not scheduled to be discontinued, but google.maps.places.AutocompleteSuggestion is recommended over google.maps.places.AutocompleteService. While google.maps.places.AutocompleteService will continue to receive bug fixes for any major regressions, existing bugs in google.maps.places.AutocompleteService will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/legacy for additional details and https://developers.google.com/maps/documentation/javascript/places-migration-overview for the migration guide. (userscript:qwebchannel.js:66, )
+INFO         | Warning: As of March 1st, 2025, google.maps.places.AutocompleteService is not available to new customers. Please use google.maps.places.AutocompleteSuggestion instead. At this time, google.maps.places.AutocompleteService is not scheduled to be discontinued, but google.maps.places.AutocompleteSuggestion is recommended over google.maps.places.AutocompleteService. While google.maps.places.AutocompleteService will continue to receive bug fixes for any major regressions, existing bugs in google.maps.places.AutocompleteService will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/legacy for additional details and https://developers.google.com/maps/documentation/javascript/places-migration-overview for the migration guide. (userscript:qwebchannel.js:66, )
+INFO         | Warning: As of March 1st, 2025, google.maps.places.Autocomplete is not available to new customers. Please use google.maps.places.PlaceAutocompleteElement instead. At this time, google.maps.places.Autocomplete is not scheduled to be discontinued, but google.maps.places.PlaceAutocompleteElement is recommended over google.maps.places.Autocomplete. While google.maps.places.Autocomplete will continue to receive bug fixes for any major regressions, existing bugs in google.maps.places.Autocomplete will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/legacy for additional details and https://developers.google.com/maps/documentation/javascript/places-migration-overview for the migration guide. (userscript:qwebchannel.js:65, )
+INFO         | Warning: Google Maps JavaScript API warning: RetiredVersion https://developers.google.com/maps/documentation/javascript/error-messages#retired-version (userscript:qwebchannel.js:29, )
+INFO         | Warning: Google Maps JavaScript API warning: RetiredVersion https://developers.google.com/maps/documentation/javascript/error-messages#retired-version (userscript:qwebchannel.js:29, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1073.93,444.383 gbl=1073.93,444.383 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1073.93,-444.383 last=-1073.93,-444.383 Δ 1073.93,444.383) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1008.46,208.096 gbl=1008.46,208.096 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1008.46,-208.096 last=-1008.46,-208.096 Δ 1008.46,208.096) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1055.37,336.892 gbl=1055.37,336.892 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1055.37,-336.892 last=-1055.37,-336.892 Δ 1055.37,336.892) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=1035.07,779.145 gbl=1035.07,779.145 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-1035.07,-779.145 last=-1035.07,-779.145 Δ 1035.07,779.145) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=0 ts=0 pos=0,0 scn=942.64,192.638 gbl=942.64,192.638 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-942.64,-192.638 last=-942.64,-192.638 Δ 942.64,192.638) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=0 ts=0 pos=0,0 scn=864.019,448.261 gbl=864.019,448.261 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-864.019,-448.261 last=-864.019,-448.261 Δ 864.019,448.261) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=0 ts=0 pos=0,0 scn=905.218,584.762 gbl=905.218,584.762 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-905.218,-584.762 last=-905.218,-584.762 Δ 905.218,584.762) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=0 ts=0 pos=0,0 scn=877.856,671.052 gbl=877.856,671.052 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-877.856,-671.052 last=-877.856,-671.052 Δ 877.856,671.052) : no target window (:0, )
+INFO         | Wait for emulator (pid 19252) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+INFO         | Wait for emulator (pid 19252) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+INFO         | Saving with gfxstream=1
+INFO         | Saving snapshot 'default_boot' using 10637 ms
+INFO         | OpenGL Vendor=[Google (Apple)]
+INFO         | OpenGL Renderer=[Android Emulator OpenGL ES Translator (Apple M1 Pro)]
+INFO         | OpenGL Version=[OpenGL ES 3.0 (4.1 Metal - 90.5)]

@@ -22,6 +22,7 @@ export function Step1() {
       >
         Flexible learning made for you
       </Text>
+      <Text onPress={() => router.push("/keyboard")}>Ir para Keyboard</Text>
       <TouchableOpacity onPress={() => router.push("/onboarding/step2")}>
         <Text style={{ color: "#666", textAlign: "center", marginTop: 8 }}>
           Set your own course duration, pay in installments, and learn at your
