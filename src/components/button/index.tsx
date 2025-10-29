@@ -1,5 +1,7 @@
+import { useTheme } from "@/hooks/use-theme";
 import { useMemo } from "react";
 import {
+  ActivityIndicator,
   StyleProp,
   StyleSheet,
   Text,
@@ -26,108 +28,53 @@ type ButtonProps = {
 
 export function Button({
   title,
-  color,
-  disabled,
-  size,
-  variant,
+  color = "primary",
+  disabled = false,
+  size = "medium",
+  variant = "solid",
+  loading = false,
   styles: customStyles,
   onPress,
 }: ButtonProps) {
+  const { theme, tokens } = useTheme();
+
   const styles = useMemo(
-    () => buttonStyles({ color, size, variant, disabled }),
-    [color, disabled, size, variant]
+    () => buttonStyles({ color, size, variant, disabled, theme, tokens }),
+    [color, disabled, size, variant, theme, tokens]
   );
 
-  // const styles = useStyle(buttonStyles, { color, size, variant, disabled });
-
   return (
-    <TouchableOpacity style={[styles.button, customStyles]} onPress={onPress}>
-      <Text>{title}</Text>
+    <TouchableOpacity
+      style={[styles.button, customStyles]}
+      onPress={onPress}
+      disabled={disabled || loading}
+      accessibilityRole="button"
+      accessibilityLabel={title}
+      accessibilityState={{ disabled: disabled || loading }}
+    >
+      {loading ? (
+        <ActivityIndicator color={styles.text.color} size="small" />
+      ) : (
+        <Text style={styles.text}>{title}</Text>
+      )}
     </TouchableOpacity>
   );
 }
 
-// export const buttonStyles = (
-//   props: Pick<ButtonProps, "variant" | "color" | "size" | "disabled">
-// ) => {
-//   const getBackgroundColor = (): string => {
-//     if (props.variant === "outline" || props.variant === "link")
-//       return "transparent";
-//     switch (props.color) {
-//       case "secondary":
-//         return "#6c757d";
-//       case "danger":
-//         return "#dc3545";
-//       case "success":
-//         return "#28a745";
-//       default:
-//         return "#007bff";
-//     }
-//   };
-
-//   const getTextColor = (): string => {
-//     if (props.variant === "solid") return "#fff";
-//     switch (props.color) {
-//       case "secondary":
-//         return "#6c757d";
-//       case "danger":
-//         return "#dc3545";
-//       case "success":
-//         return "#28a745";
-//       default:
-//         return "#007bff";
-//     }
-//   };
-
-//   const getPadding = (): number => {
-//     switch (props.size) {
-//       case "small":
-//         return 8;
-//       case "large":
-//         return 16;
-//       default:
-//         return 12;
-//     }
-//   };
-
-//   const getHeight = (): number => {
-//     switch (props.size) {
-//       case "small":
-//         return 32;
-//       case "large":
-//         return 48;
-//       default:
-//         return 40;
-//     }
-//   };
-
-//   return StyleSheet.create({
-//     button: {
-//       backgroundColor: getBackgroundColor(),
-//       borderColor: props.variant === "outline" ? getTextColor() : "transparent",
-//       borderWidth: props.variant === "outline" ? 1.5 : 0,
-//       paddingVertical: getPadding(),
-//       paddingHorizontal: getPadding() * 2,
-//       borderRadius: 8,
-//       alignItems: "center",
-//       justifyContent: "center",
-//       opacity: props.disabled ? 0.6 : 1,
-//       height: getHeight(),
-//     },
-//   });
-// };
-
 export const buttonStyles = (
-  props: Pick<ButtonProps, "variant" | "color" | "size" | "disabled">
+  props: Pick<ButtonProps, "variant" | "color" | "size" | "disabled"> & {
+    theme: any;
+    tokens: any;
+  }
 ) => {
   const isOutline = props.variant === "outline";
   const isLink = props.variant === "link";
 
   const colorMap = {
-    primary: "#007bff",
-    secondary: "#6c757d",
-    danger: "#dc3545",
-    success: "#28a745",
+    primary: props.tokens?.color?.feedback?.informative?.[500] || "#0da6f2",
+    secondary: props.tokens?.color?.neutral?.darkness?.[600] || "#6e6e6e",
+    danger: props.tokens?.color?.feedback?.error?.[500] || "#ef4444",
+    success: props.tokens?.color?.feedback?.success?.[500] || "#489766",
   } as const;
 
   const baseColor = colorMap[props.color ?? "primary"];
@@ -152,6 +99,11 @@ export const buttonStyles = (
       justifyContent: "center",
       opacity: props.disabled ? 0.6 : 1,
       height,
+    },
+    text: {
+      color: textColor,
+      fontSize: 16,
+      fontWeight: "600",
     },
   });
 };

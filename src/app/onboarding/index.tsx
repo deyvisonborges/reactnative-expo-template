@@ -8,16 +8,18 @@ export default function OnboardingDefaultRoute() {
 
   const [loading, setLoading] = useState(true);
 
-  // Exemplo fictício — você pode substituir por AsyncStorage, API, etc.
+  /**
+   * A ideia aqui é poder no futuro, buscar os dados em uma API ou AsyncStorage,
+   * para decidir qual passo do onboarding o usuário deve ser redirecionado.
+   */
+
   async function getUserStep() {
-    // await AsyncStorage.getItem("onboardingStep")
     await new Promise((resolve) =>
       setTimeout(() => {
         resolve("step1");
-      }, 3000)
+      })
     );
     setLoading(false);
-
     return "step1";
   }
 

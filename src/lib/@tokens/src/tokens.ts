@@ -118,6 +118,7 @@ export const FONT_WEIGHTS = {
   medium: "500",
   bold: "bold",
 };
+
 export const BORDER_RADIUS = {
   sm: 4,
   md: 8,

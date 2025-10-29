@@ -460,3 +460,9 @@ INFO         | Saving snapshot 'default_boot' using 10637 ms
 INFO         | OpenGL Vendor=[Google (Apple)]
 INFO         | OpenGL Renderer=[Android Emulator OpenGL ES Translator (Apple M1 Pro)]
 INFO         | OpenGL Version=[OpenGL ES 3.0 (4.1 Metal - 90.5)]
+[20076:792901:20251029,001422.968757:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,001423.403788:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
