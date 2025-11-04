@@ -1,17 +1,16 @@
 import { Typography } from "@/components/typography";
-import { useStepRouter } from "@/hooks/use-step-router";
 import { Ionicons } from "@expo/vector-icons";
+import { useLocalSearchParams } from "expo-router";
 import { TouchableOpacity, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { renderSteps, useOnboarding } from "./onboard.provider";
 
 export function OnboardingHeader() {
   const insets = useSafeAreaInsets();
+  const { currentStep, goNext, goBack, isFirst, isLast, stepsLength } =
+    useOnboarding();
 
-  const steps = ["onboarding/step1", "onboarding/step2", "onboarding/step3"];
-  const { currentStep, goNext, goBack, isFirst, isLast } = useStepRouter(
-    steps,
-    () => console.log("Onboarding finalizado")
-  );
+  const { step } = useLocalSearchParams<{ step: string }>();
 
   return (
     <View
@@ -37,7 +36,7 @@ export function OnboardingHeader() {
         )}
 
         <Typography style={{ flex: 1, textAlign: "center" }}>
-          {currentStep}
+          {renderSteps[step].props.title}
         </Typography>
 
         {!isLast && (

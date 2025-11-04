@@ -40,7 +40,7 @@ export default function OnboardingLayout() {
           header: () => <OnboardingHeader />, // ✅ header oficial do stack
         }}
       >
-        <Stack.Screen name="[step]/index" />
+        {/* <Stack.Screen name="[step]/index" /> */}
         <Stack.Protected guard={isAuthenticated}>
           <Stack.Screen name="[step]/step1" />
         </Stack.Protected>

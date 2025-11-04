@@ -466,3 +466,117 @@ INFO         | OpenGL Version=[OpenGL ES 3.0 (4.1 Metal - 90.5)]
 [20144:792995:20251029,001423.403788:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
     Folder
 ), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251029,082340.117694:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,082340.547384:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251029,083840.081752:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,083840.507489:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251029,113308.966757:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,113309.395186:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251029,114809.022822:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,114809.452083:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251029,120309.037865:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,120309.470378:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251029,173548.412864:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,173548.846051:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251029,175048.427966:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,175048.860274:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251029,180548.441045:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,180548.872310:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251029,204834.341445:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251029,204834.773729:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251030,010921.391633:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251030,010921.808739:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251030,012421.364852:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251030,012421.780825:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251030,013921.345122:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251030,013921.760554:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251030,113229.446704:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251030,113229.862523:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251030,151341.550994:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251030,151341.964844:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251030,225236.356815:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251030,225236.769355:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251030,230736.364816:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251030,230736.777531:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251030,233643.928526:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251030,233644.339799:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251030,235143.954972:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251030,235144.363684:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814000 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20076:792901:20251031,015220.097578:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x924814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}
+[20144:792995:20251031,015220.506053:ERROR crash_report_database_mac.mm:825] Failed to enumerate reports in directory /tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending: Error Domain=NSCocoaErrorDomain Code=260 "The folder “pending” doesn’t exist." UserInfo={NSUserStringVariant=(
+    Folder
+), NSFilePath=/tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSURL=file:///tmp/android-deyvisonborges/emu-crash-36.2.12.db/pending, NSUnderlyingError=0x76a814030 {Error Domain=NSOSStatusErrorDomain Code=-43 "fnfErr: File not found"}}

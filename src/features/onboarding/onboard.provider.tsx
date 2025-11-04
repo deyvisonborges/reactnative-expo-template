@@ -1,7 +1,7 @@
 import { OnboardingLayout } from "@/features/onboarding/onboard.layout";
 import { Step1 } from "@/features/onboarding/step1";
 import { Step2 } from "@/features/onboarding/step2";
-import { useStepNavigation } from "@/hooks/use-step-navigation";
+import { useStepRouter } from "@/hooks/use-step-router";
 import { createContext, JSX, ReactNode, useContext } from "react";
 
 interface OnboardingContextType {
@@ -31,7 +31,7 @@ export const renderSteps: Record<string, JSX.Element> = {
 };
 
 export function OnboardingProvider({
-  totalSteps,
+  totalSteps: _totalSteps,
   onFinish,
   children,
 }: {
@@ -39,10 +39,27 @@ export function OnboardingProvider({
   onFinish?: () => void;
   children: ReactNode;
 }) {
-  const stepNav = useStepNavigation({ totalSteps, onFinish });
+  // Derive steps from the declared renderSteps to keep everything in sync with routing
+  const steps = Object.keys(renderSteps).map(
+    (stepKey) => `onboarding/${stepKey}`
+  );
+
+  const { currentIndex, goNext, goBack, isFirst, isLast } = useStepRouter(
+    steps,
+    () => onFinish?.()
+  );
 
   return (
-    <OnboardingContext.Provider value={{ ...stepNav, stepsLength: totalSteps }}>
+    <OnboardingContext.Provider
+      value={{
+        currentStep: currentIndex,
+        goNext,
+        goBack,
+        isFirst,
+        isLast,
+        stepsLength: steps.length,
+      }}
+    >
       {children}
     </OnboardingContext.Provider>
   );
